@@ -1,0 +1,29 @@
+footer {
+    background-color: #495E57;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+.secondaryLogo {
+    margin-top: 1em;
+}
+
+.footerList {
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.footerListItems {
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.footerLinks {
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 1em;
+}

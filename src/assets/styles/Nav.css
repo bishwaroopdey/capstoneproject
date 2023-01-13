@@ -1,14 +1,14 @@
-ul {
+.headerList {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
 }
 
-li {
+.headerListItems {
     display: inline-block;
 }
 
-a {
+.headerLinks {
     text-decoration: none;
     color: black;
     font-weight: 600;
@@ -16,7 +16,7 @@ a {
     padding: 1em;
 }
 
-a:hover {
+.headerLinks:hover {
     color: white;
     background-color: #495E57;
 }

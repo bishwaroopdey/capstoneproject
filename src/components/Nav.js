@@ -2,16 +2,16 @@ import "../assets/styles/Nav.css"
 
 function Nav() {
     return (
-      <div className="nav">
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Menu</a></li>
-            <li><a href="">Reservations</a></li>
-            <li><a href="">Order Online</a></li>
-            <li><a href="">Login</a></li>
+      <nav>
+        <ul className="headerList">
+            <li className="headerListItems"><a href="" className="headerLinks">Home</a></li>
+            <li className="headerListItems"><a href="" className="headerLinks">About</a></li>
+            <li className="headerListItems"><a href="" className="headerLinks">Menu</a></li>
+            <li className="headerListItems"><a href="" className="headerLinks">Reservations</a></li>
+            <li className="headerListItems"><a href="" className="headerLinks">Order Online</a></li>
+            <li className="headerListItems"><a href="" className="headerLinks">Login</a></li>
         </ul>
-      </div>
+      </nav>
     );
   }
 
